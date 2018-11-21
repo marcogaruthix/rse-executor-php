@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora 1.0</title>
+</head>
+<body>
+
+<div style='width: 300px; height: 300px;'>
+	<form method='GET' action='http://localhost:4020/pages/calculadora/calcula.php'>
+		<input id='val1' type='number' name='val1'>
+		<input id='val2' type='number' name='val2'>
+		<br/>
+		<select id='op' name='op'>
+			<option value='adicao'>Adicionar</option>
+			<option value=subtracao''>Subtrair</option>
+			<option value='multiplicacao'>Multiplicar</option>
+			<option value='divisao'>Dividir</option>
+		</select>
+		<br/>
+		<button type='submit'>Calcular</button>
+		<br/>
+		<input id='result' type='number' disabled>
+	</form>
+</div>
+
+
+</body>
+</html>
